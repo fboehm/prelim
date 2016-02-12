@@ -1,0 +1,7 @@
+---
+title: "Notes for Prelim Exam"
+author: "Fred Boehm"
+date: "February 11, 2016"
+output: pdf_document
+---
+
