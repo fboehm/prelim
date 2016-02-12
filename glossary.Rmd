@@ -1,0 +1,13 @@
+---
+title: "Determinantal point processes glossary"
+author: "Fred Boehm"
+date: "February 11, 2016"
+output: html_document
+---
+
+**Determinantal point process**
+
+
+
+**Point process**
+
