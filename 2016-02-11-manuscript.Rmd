@@ -13,7 +13,7 @@ We present a family of stochastic processes, which are known as *determinantal p
 
 2. Using text data to identify topics among text corpora.
 
-Other researchers have studied both of these questions using Bayesian nonparametric methods. In such studies, the Bayesian prior distributions are specified to be Dirichlet mixtures. The number of components may be known a priori or may be learned from the data. The components are topics (in the case of topic modeling) and subclones (in the setting of tumor heterogeneity).
+Other researchers have studied both of these questions using Bayesian nonparametric methods. In such studies, the Bayesian prior distributions are specified to be Dirichlet process mixtures. The number of components may be known *a priori* or may be learned from the data. The components are topics (in the case of topic modeling) and subclones (in the setting of tumor heterogeneity).
 
 
 
