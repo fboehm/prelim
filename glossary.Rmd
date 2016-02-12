@@ -14,6 +14,43 @@ output: pdf_document
 
 **L-ensemble**
 
+**kernel**
+
+**partition function**
+
+**elementary DPP**
+
+**determinantal projection process**
+
+
+**Palm distribution**
+
+
+**Reduced Palm distribution**
+
+**Translation-invariant point process**
+
+
+**Gauss decomposition of a matrix**
+
+
+**Markov semi-group**
+
+**Homogeneous (discrete-time) Markov semi-group**
+
+
+
+**Markov process**
+
+**Poisson point process**
+
+**Ground set**
+
+
+**Matrix permanent**
+
+**Matrix immanant**
+
 
 
 
