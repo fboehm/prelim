@@ -2,7 +2,7 @@
 title: "Determinantal point processes glossary"
 author: "Fred Boehm"
 date: "February 11, 2016"
-output: html_document
+output: pdf_document
 ---
 
 **Determinantal point process**
@@ -10,4 +10,12 @@ output: html_document
 
 
 **Point process**
+
+
+**L-ensemble**
+
+
+
+
+
 
