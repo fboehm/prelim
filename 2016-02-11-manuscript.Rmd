@@ -68,4 +68,7 @@ What are assumptions of model?
 
 5. Using the DPP as prior in Topic Modeling
 
+```{r}
+git2r::summary(git2r::repository("."))
+```
 
