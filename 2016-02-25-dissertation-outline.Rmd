@@ -1,0 +1,158 @@
+---
+title: "Outlining my dissertation proposal"
+author: "Fred Boehm"
+date: "February 25, 2016"
+output: html_document
+bibliography: ../bgm.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Abstract
+
+
+
+# Introduction
+
+
+
+# Scientific research question
+
+## State the research question
+
+Cells in a single patient's cancer are not genetically identical. This intra-tumor heterogeneity has profound implications on medical diagnosis and treatment of cancers. Current breast cancer diagnosis methods, for example, often rely on a fine needle aspiration to collect a sample of tumor cells. Due to tumor heterogeneity, the cells collected in this manner may or may not be representative of the genomic diversity present in the tumor. For example, a fine needle aspiration collects cells only from a small spatial region of a tumor. If the sampled region contains subpopulations of tumor cells that aren't present in other spatial regions of the tumor, then the FNA sample will be a biased representation of the genomic diversity in the tumor. Consequently, information from the FNA sample may misinform diagnosis and treatment decisions. 
+
+The clonal hypothesis posits that cancers evolve over time from collections of mutated cells. Subpopulations of biologically similar cancer cells are called "subclones". Recent research has used genomics data to partition cells into distinct subclones. The goal of inferring unknown quantities, when the number of unknown quantities is itself unknown, has attracted research attention from statisticians. One strategy for inferring genomically distinct populations models subclones as a mixture of Dirichlet processes and 
+
+
+
+- tumor heterogeneity
+  - how do we identify subclones?
+
+## Why is the research question important?
+
+
+
+
+## How have others tried to answer this question?
+
+- pyclone uses a DPM @roth2014pyclone
+
+Can I write a paragraph about pyclone? Why is it useful? What are its limitations? 
+
+@roth2014pyclone developed a nonparametric Bayesian strategy for identifying subclones. They use a Dirichlet process mixture (DPM) model.
+
+- What are the assumptions of a DPM? How do they compare to the assumptions of a IBP? 
+
+- What is a "Dirichlet process mixture" vs. "Mixture of Dirichlet processes"?
+
+
+
+## What do I propose doing, in a scientific sense?
+  
+  - Integrate genomics platforms to identify subclonal populations
+  - Use graphical model strategy
+  - When are two graphical models "different"?
+  
+  
+  
+  
+  
+
+# Statistical methods to be developed
+
+## Comparing multiple (more than 2) graphical models at one time point
+
+Can we extend @mitra2016bayesian to more than two graphical models? 
+
+
+## Comparing two graphical models at distinct time points
+
+  - What do we do to account for within-subject correlation?
+  - I envision each person having a graphical model at time point 1 and a graphical model at time point 2
+  
+  The idea is that I'd have genomics data from one subject at distinct time points. I don't know the number of distinct time points, but I want at least two per person, and I think that more time points is even better.
+  
+- what have others done for time-varying graphical models?   
+  
+- What are alternative strategies for identifying subclones over time? What do phylogenetics people do? 
+
+are there possible contributions of phylogenetics to my work? 
+
+
+
+
+
+
+
+
+# Available data
+
+Let's assume that we have DNAseq and RNAseq data from multiple subjects' cancers and at multiple time points per subject.
+
+## Tissue collection methods
+
+- We need to spell out how we get all samples. How were samples processed? 
+
+
+
+## Genomics data acquisition methods
+
+How were tissue samples assayed? What methods? 
+
+
+
+
+## Genomics data initial processing
+
+How did we go from 'raw' genomics data to 'processed' genomics data?
+
+## Genomics data 
+
+What did we end up using in our tumor heterogeneity analyses?
+
+# Preliminary research
+
+
+
+
+
+## Overview of preliminary research question
+
+  - what was my goal?
+  - how did I approach it? 
+  - What statistical methods have I implemented to address the initial research question? 
+  
+## Preliminary data  
+  
+  
+  
+## Preliminary methods
+
+
+
+## Preliminary results
+
+
+
+## Preliminary conclusions
+
+
+# Questions
+
+Do determinantal point processes have a role? How are they (DPP) an alternative to graphical models? 
+  
+What role does IBP (and/ or pIBP) have here?
+
+
+More generally, can I use feature allocation models? How? With what purpose?
+
+We should think about cells that don't get into our genomic sample. Unseen species problem? How many words did Shakespeare know? How many subclones aren't sampled? Do we have genomics data for primary tumor and mets? How do the subclonal compositions differ from mets to primary tumor?
+
+
+
+# References
+
+
