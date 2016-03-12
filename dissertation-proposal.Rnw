@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage[printwatermark]{xwatermark}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\newsavebox\mybox
+\savebox\mybox{\tikz[color=red,opacity=0.3]\node{DRAFT};}
+\newwatermark*[
+  allpages,
+  angle=45,
+  scale=6,
+  xpos=-20,
+  ypos=15
+]{\usebox\mybox}
+%\newwatermark[allpages,color=red!50,angle=45,scale=3,xpos=0,ypos=0]{DRAFT}
+
+\begin{document}
+
+\title{Bayesian nonparametric methods for inferring subclonal populations from tumor DNA sequencing}
+\author{Fred Boehm}
+\date{\today}
+\maketitle
+
+\tableofcontents
+
+<<setup, cache=FALSE, include=FALSE>>=
+library(knitr)
+opts_chunk$set(echo = FALSE)
+@
+
+
+
+\section{Motivation}
+
+<<>>=
+getwd()
+@
+
+
+
+
+\section{Background}
+
+\section{Available Data}
+
+\section{Statistical methods}
+
+\end{document}
